@@ -20,9 +20,9 @@ struct passwd *mygetpwnam1(const char *name) {
 //version2
 struct passwd *mygetpwnam2(const char *name) {
     setpwent();
-    static struct passwd pwd;
+    static struct passwd pwd;//分配的不是指针！
     struct passwd *tmp;
-    while ((tmp = getpwent()) != NULL && strcmp(tmp->pw_name, name));
+    while ((tmp = getpwent()) != NULL && strcmp(tmp->pw_name, name));//注意这里没有循环体 一旦其中一个条件破坏就停止
     if (tmp != NULL) {
         char *pw_name = (char *)malloc(strlen(tmp->pw_name) + 1); 
         strcpy(pw_name, tmp->pw_name);
