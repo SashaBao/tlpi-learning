@@ -1,5 +1,3 @@
 # TLPI
 
-ÎÒÏëÒªÍ¨¹ý¸ÃÊéÑ§Ï°linuxÏµÍ³±à³Ì£¬ÔÚ´Ë¼ÇÂ¼ÎÒµÄÃ¿ÕÂÏ°ÌâµÄ´ð°¸¡£Ã¿¸öÕÂ½ÚµÄÏ°ÌâÎÒ¶¼»áÐ´µãËæÏë£¬»ù±¾ÉÏÊÇÐ´´úÂëÊ±ºòµÄÒ»Ð©Ïë·¨¡£
-
-³öÓÚÐ§ÂÊÎÊÌâ£¬ÎÒÐ´´úÂëµÄÊ±ºò²»»á¶ÔÒì³£Çé¿ö½øÐÐÌØÊâÅÐ¶Ï¡£
+æˆ‘å¯¹äºŽThe Linux Programming Interfaceä¸­è¯¾åŽä¹ é¢˜çš„è§£ç­”ã€‚
